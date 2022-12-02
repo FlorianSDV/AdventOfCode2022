@@ -20,9 +20,10 @@ for line in lines:
 
 print(part1)
 print(part2)
-print(part2.sort(reverse=True))
 part2.sort(reverse=True)
-part2 = sum(part2[:3])
+print(sum(part2[:3]))
+
+# part2 = sum(part2[:3])
 # or:
 # part2 = part2[0] + part2[1] + part2[2]
-print(part2)
+# print(part2)
