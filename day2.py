@@ -35,7 +35,7 @@ for line in lines:
     # find all keys that contain the needed result
     keys = [k for k, v in rules.items() if v == part2_needed_outcome]
     for key in keys:
-        # if the first part of the key is the same as the opponents input we need this key, we also immedeately know if
+        # if the first part of the key is the same as the opponents input we need this key, we also immediately know if
         # we need to play rock paper or scissors
         if key[0:1] == opponent_input:
             part2_score += outcome_points[rules[key]] + rock_paper_scissors_points[key[-1]]
