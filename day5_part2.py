@@ -1,4 +1,4 @@
-with open('day5.txt') as f:
+with open('test.txt') as f:
     lines = [line.rstrip() for line in f]
 
 all_stacks = {
@@ -10,7 +10,7 @@ all_stacks = {
     '6': [],
     '7': [],
     '8': [],
-    '9': [],
+    '9': []
 }
 
 stack_input = []
